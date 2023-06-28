@@ -64,13 +64,13 @@ try {
 
 #### Prepare 模擬（預設）
 
-![當 PDO::ATTR_EMULATE_PREPARES = true 時（預設）](1_88qQ75DSIHslkFd1bOFXhA.png)
+![當 PDO::ATTR_EMULATE_PREPARES = true 時（預設）](1_88qQ75DSIHslkFd1bOFXhA.webp)
 
 #### 關閉 Prapare 模擬
 
-![Request Prepare Statement](1_Jl1fnWIPZuW9t86afveahg.png)
+![Request Prepare Statement](1_Jl1fnWIPZuW9t86afveahg.webp)
 
-![Rquest Execute Statement](1_uFCR7TsihoFL30H9R_ibFQ.png)
+![Rquest Execute Statement](1_uFCR7TsihoFL30H9R_ibFQ.webp)
 
 ## 結論
 

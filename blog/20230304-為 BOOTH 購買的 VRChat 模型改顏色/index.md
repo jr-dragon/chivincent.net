@@ -10,8 +10,8 @@ tags: [vrchat, 3d]
 
 有鑑於大部份的玩家都會在購買模型之後改變顏色或添增一些圖騰，以更加符合自身的設定，所以我也嘗試著自行修改：
 
-![改造前](0-0.png)
-![改造後](0-1.png)
+![改造前](0-0.webp)
+![改造後](0-1.webp)
 
 本次的操作皆以這個模型為範例，理論上流程是差不多的，但可能在提供的東西上會有些差異
 
@@ -73,23 +73,23 @@ tags: [vrchat, 3d]
 
 以 GIMP 打開 `TEXTURE/PSD/TEX_Body_Face.psd`，並且將不需修改的部份暫且隱藏（圖中我僅留下了「肌/Skin > 肌/Skin」 的項目）：
 
-![](1.png)
+![](1.webp)
 
 將此處的白色改成比較深一些的小麥色，例如此處是 `bc8c77`（可以用 GIMP 的調色盤選擇自己喜歡的顏色）
 
-![](2.png)
+![](2.webp)
 
 先選定要更改的圖層，再選擇「顏色 > 映射 > 顏色交換」
 
-![](3.png)
+![](3.webp)
 
-![](4.png)
+![](4.webp)
 
 用 From Color 的拾色器（右邊的滴管）取得臉部的顏色（此處非常接近於白色），再到 To Color 的網頁標記填入 `bc8c77`，最後把下面的 Red Threshold, Green Threshold 及 Blue Threshold 拉到最高。
 
 > 註：有的時候 Threashould 拉到最高並不一定是合適的，可以藉著即時預覽確定是不是自己要的效果
 
-![](5.png)
+![](5.webp)
 
 接著把每一個想變化的部份都設定好，如果想要畫上圖騰，可以依賴 [Krita](https://krita.org/zh-tw/) 之類的軟體協助（GIMP 的繪圖功能我一直學不會 OTZ）
 
@@ -103,11 +103,11 @@ tags: [vrchat, 3d]
 
 將上一步修改後的 Texture 匯入 `Assets/Zeffie/Texture` 中：
 
-![](6.png)
+![](6.webp)
 
 將 `Assets/Zeffie/Materials` 的 Material 「主色/Alpha設置」改為新的 Texture
 
-![](7.png)
+![](7.webp)
 
 > 註：因為我沒有修改發光的 Texture，所以這邊我取消了「發光設置」
 

@@ -325,13 +325,13 @@ Route::get('job/timeout', function () {
 
 ### SimpleLog
 
-![SimpleLog Log](1.png)
+![SimpleLog Log](1.webp)
 
 毫無疑問，`SimpleLog` 本身就是個不會出錯的任務，無論是在哪個 Queue Connection 下都能正常運行，在實驗中充當 Base Case。
 
 ### LargeMemory
 
-![LargeMemory Log](2.png)
+![LargeMemory Log](2.webp)
 
 一旦 `dispatch(new LargeMemory())` 後，PHP 就會丟出 Fatal Error，訊息應該大致上類似於 `Allowed memory size of 134217728 bytes exhausted (tried to allocate 536870920 bytes)`，此時 Queue Worker 會直接停止運作（依賴 Docker Compose 的 Restart Policy，它會重啟）
 
@@ -354,8 +354,8 @@ Route::get('job/timeout', function () {
 
 ### Timeout
 
-![Timeout Log](3.png)
-![Timeout Console Log](4.png)
+![Timeout Log](3.webp)
+![Timeout Console Log](4.webp)
 
 對於任務超時，會有幾個行為：
 
@@ -366,7 +366,7 @@ Route::get('job/timeout', function () {
 
 ### Exception
 
-![Exception Log](5.png)
+![Exception Log](5.webp)
 
 如果任務中丟出 Exception：
 
@@ -394,7 +394,7 @@ Route::get('job/timeout', function () {
 
 > 註：在 Log File 中可以看到，`LargeMemory` 會丟出的 `MaxAttemptsExceededException` 會被記錄下來，而 `Timeout` 並不會
 
-![MaxAttemptsExceededExcepiton in Log](6.png)
+![MaxAttemptsExceededExcepiton in Log](6.webp)
 
 ### Exception
 
