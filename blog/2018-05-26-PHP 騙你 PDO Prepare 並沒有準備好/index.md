@@ -8,6 +8,8 @@ tags: [php]
 
 大部份的 PHP 開發者都會告訴你：用 PDO 取代 `mysqli` 相關函式，它不僅支援 [Prepared Statement](https://en.wikipedia.org/wiki/Prepared_statement)，而且還有多種 Driver 可以隨時切換不同的 Database。
 
+<!--truncate-->
+
 ## PDO Prepare 的使用
 
 ```php

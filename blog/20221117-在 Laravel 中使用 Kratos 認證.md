@@ -18,6 +18,8 @@ Laravel 有著優秀的預定義認證（Authentication）功能，讓開發者�
 
 [Kratos](https://www.ory.sh/kratos/) 是由 Ory Corp 所提供的開源認證解決方案，藉由設定檔的方式可以靈活設計認證模型（例如帳號密碼、第三方社群或 WebAuth 等 passwordless 的形式）
 
+<!--truncate-->
+
 ## 使用方式
 
 為了在 Laravel 中更好使用 Kratos，我寫了一個 Laravel Package：[chivincent/laravel-kratos](https://packagist.org/packages/chivincent/laravel-kratos)

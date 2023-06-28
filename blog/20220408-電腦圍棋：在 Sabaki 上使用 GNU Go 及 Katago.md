@@ -17,6 +17,8 @@ tags:
 
 > 註：圍棋其實有不少付費軟體，但實際用起來很多都效果不佳，有些 AI 對奕的實力甚至比數十年前的 GNU Go 還差。
 
+<!--truncate-->
+
 ## 棋盤軟體
 
 根據[中華棋院暨兒童圍棋道場](http://mindgo.com.tw/index.php?p=page&id=85)的推薦可以使用 [Multigo](http://www.ruijiang.com/multigo/download.php) 這款免費軟體，但是這款軟體在 2008 年後就停止更新，而且僅支援 Windows 算是不小的硬傷。

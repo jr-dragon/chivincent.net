@@ -18,6 +18,8 @@ Google reCAPTCHA 是一個人類行為驗證機制，用於阻止爬蟲或類似
 
 就目前為止，除了 Google 官方的 SDK 之外，幾乎找不到針對 reCAPTCHA enterprise 實作的 PHP 套件（大多都是 reCAPTCHA v2 及 v3）。
 
+<!--truncate-->
+
 ## 目標
 
 - 使用 [Google reCAPTCHA Enterprise](https://cloud.google.com/recaptcha-enterprise?hl=zh-tw)

@@ -12,6 +12,8 @@ tags: [vrchat, 3d]
 
 也就是說，需要解決的問題就是：如何讓 VSeeFace 使用 VRChat 相容的 3D 模型
 
+<!--truncate-->
+
 ## 事前準備
 
 - [Unity 2019.4.31f1](https://unity.com/releases/editor/archive#download-archive-2019)

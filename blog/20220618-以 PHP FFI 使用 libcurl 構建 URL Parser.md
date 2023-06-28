@@ -25,6 +25,8 @@ tags:
 
 這個問題直到 PHP 8.1 仍未見改善，這也是促使我寫下本文的動機。
 
+<!--truncate-->
+
 ## PHP FFI
 
 FFI 是 PHP 7.4 加入的新功能，作為一個 extension 的形式被加入 PHP 核心中。

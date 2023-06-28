@@ -12,6 +12,8 @@ tags:
 
 Wireguard 是一款開源的 VPN 的程式及協定，基於 Linux Kernel 實現，相較於 OpenVPN 而言有更好的效能。
 
+<!--truncate-->
+
 ## 前置準備
 
 對於 Fedora Server 的安裝就不再贅述。

@@ -22,6 +22,8 @@ FTP 是一個歷史悠久的通訊協定，RFC 就多次提出標準及各項補
 - [RFC 2228](https://datatracker.ietf.org/doc/html/rfc2228)：安全擴充
 - [RFC 2428](https://datatracker.ietf.org/doc/html/rfc2428)：對 IPv6 的支援與擴充被動模式
 
+<!--truncate-->
+
 ### FTPS
 
 因為 FTP 在規範中是明碼傳輸，這也導致其安全性與隱私性備受質疑。

@@ -17,6 +17,8 @@ tags: [laravel]
 | Sanctum  | `laravel/sanctum`  | ✅ | ✅ | ✅ | 
 | Passport | `laravel/passport` | ✅ | ❌ | ✅ |
 
+<!--truncate-->
+
 ### 應用情境
 
 - Session

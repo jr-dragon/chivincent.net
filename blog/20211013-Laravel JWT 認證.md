@@ -17,6 +17,8 @@ tags:
 - [Laravel Passport](https://laravel.com/docs/8.x/passport)
 - [tymondesigns/jwt-auth](https://github.com/tymondesigns/jwt-auth)
 
+<!--truncate-->
+
 ### Laravel Passport
 
 眾所周知，Laravel Passport 是個相對比較沉重的解決方案，它包含了 OAuth2 的認證協定實作，這也使它會複雜化認證服務的實作。

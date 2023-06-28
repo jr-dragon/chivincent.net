@@ -11,6 +11,8 @@ tags:
 
 [Lima: Linux virtual machines (on macOS)](https://github.com/lima-vm/lima)，是一款專門在 macOS 上模擬 Linux 的軟體，基於 QEMU 並為 x86_64 及 ARM 都提供了良好的使用體驗。
 
+<!--truncate-->
+
 ## 用法
 
 ### 安裝
