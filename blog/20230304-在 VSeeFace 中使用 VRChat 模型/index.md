@@ -38,15 +38,15 @@ tags: [vrchat, 3d]
 
 在 Unity 的 Project 區域中找到原始的 FBX 檔，並且點擊 Inspector 中的 Rig 項目，將 Animation Type 改成 Humanoid
 
-![](1.png)
+![](1.webp)
 
 Apply 之後，點擊 Avatar Definition 的 Configure，會進到 Avatar Configuration 的畫面
 
-![](2.png)
+![](2.webp)
 
 在 Inspector 中點擊 Head，通常來說只有頭骨可能會需要修正。如果有顎骨（Jaw）的話，將其改為 None
 
-![](3.png)
+![](3.webp)
 
 完成後點擊 Inspector 中的 Done 即可回到原本頁面
 
@@ -54,7 +54,7 @@ Apply 之後，點擊 Avatar Definition 的 Configure，會進到 Avatar Configu
 
 選定 Scene 中要匯出的模型，並選釋工具列的「VRM0 > Export to VRM 0.x」
 
-![](4.png)
+![](4.webp)
 
 填入 Title, Version, Author 等訊息，如果想要的話也可以加入 Thumbnail（縮圖）
 
@@ -66,11 +66,11 @@ Apply 之後，點擊 Avatar Definition 的 Configure，會進到 Avatar Configu
 
 在 Project 中選擇剛剛導出的 VRM，並且找到 Inspector 的 `VRM Blend Shape Proxy`，其中應該有會 `BlendShape`
 
-![](5.png)
+![](5.webp)
 
 雙擊後，就可以進入 BlendShape 的編輯介面，盡可能將 BlendShapeClip 的所有內容與下方 Body 的參數相對應（藉由拉動滑桿就能夠影響特定骨骼的形變，且通常 VRChat 模型都已經有一些內建的表情可以直接使用）
 
-![](6.png)
+![](6.webp)
 
 最後，重新發佈一次 VRM 模型，應該就可以正常在 VSeeFace 中使用這個角色模型
 
@@ -78,15 +78,15 @@ Apply 之後，點擊 Avatar Definition 的 Configure，會進到 Avatar Configu
 
 開啟 VSeeFace，點選增加虛擬化身，並且選擇剛剛匯出的 VRM 模型，且右邊的攝影機與麥克風先隨便選擇（如果打算使用電腦上的 Webcam 與麥克風，就要在這邊先選好）
 
-![](7.png)
+![](7.webp)
 
 將 iOS 設備連線到與 VSeeFace 相同的區域網路（想成是連到同一個 WiFi），再打開 iFacialMocap，它會在啟動時說明目前 iPhone 所在的 IP 位置：
 
-![](8.jpeg)
+![](8.webp)
 
 在 VSeeFace 的「設定 > 一般設定」中，找到「iFacialMocap/FaceMocap3D/VTube Studio」中勾選「iPhone/ARKit追蹤接收器」，並且填入剛剛 iOS iFacialMocap 顯示的 IP 地址
 
-![](9.png)
+![](9.webp)
 
 {{< youtube id=nb3hetfzx60 >}}
 
