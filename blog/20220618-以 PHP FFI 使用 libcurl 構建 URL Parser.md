@@ -2,12 +2,8 @@
 title: "以 PHP FFI 使用 libcurl 構建 URL Parser"
 date: 2022-06-17T23:28:18+08:00
 slug: url-parser-using-libcurl-with-php-ffi
-categories:
-  - 資訊技術
-tags:
-  - PHP
-  - FFI
-  - libcurl
+authors: [chivincent]
+tags: [php]
 ---
 
 眾所周知，在 PHP 中 `parse_url()` 這個函式遲遲未支援 UTF-8，這導致一些英文、數字以外的 Host, Path, Query 及 Fragment 都會解析錯誤。

@@ -2,12 +2,8 @@
 title: "Fedora Server 上建立 Wireguard VPN"
 date: 2022-08-10T13:29:27+08:00
 slug: setup-wireguard-on-fedora-server
-categories:
-  - 資訊技術
-tags:
-  - Linux
-  - Fedora
-  - Wireguard
+authors: [chivincent]
+tags: [linux,vpn,wireguard]
 ---
 
 Wireguard 是一款開源的 VPN 的程式及協定，基於 Linux Kernel 實現，相較於 OpenVPN 而言有更好的效能。

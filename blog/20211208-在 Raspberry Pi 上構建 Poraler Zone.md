@@ -2,11 +2,8 @@
 title: "在 Raspberry Pi 上構建 Portaler Zone"
 date: 2021-12-08T19:39:10+08:00
 slug: portaler-zone-on-raspberry-pi
-categories:
-  - 資訊技術
-tags:
-  - Portaler Zone
-  - Albion Online
+authors: [chivincent]
+tags: [game]
 ---
 
 [Portaler Zone](https://github.com/Portaler-Zone/portaler-core) 是一款為 [Albion Online](https://albiononline.com/zh/home) 打造的社群工具，其目的是共享社群間的地圖資訊。

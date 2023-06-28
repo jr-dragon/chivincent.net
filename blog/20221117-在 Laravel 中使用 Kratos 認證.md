@@ -2,14 +2,8 @@
 title: "在 Laravel 中使用 Kratos 認證"
 date: 2022-11-17T23:36:11+08:00
 slug: use-kratos-auth-in-laravel
-categories:
-  - 資訊技術
-tags:
-  - Laravel
-  - Authentication
-  - ory-kratos
-  - gorilla-session
-  - gorilla-securecookie
+authors: [chivincent]
+tags: [php,laravel,kratos]
 ---
 
 Laravel 有著優秀的預定義認證（Authentication）功能，讓開發者不必費心在重複製作用戶註冊、登入、登出等功能。

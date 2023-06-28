@@ -3,7 +3,7 @@ slug: laravel-sanctum-spa-authenticate-analysis
 title: "Laravel Sanctum 單頁應用程式認證分析"
 date: 2020-10-24T16:15:52+08:00
 authors: [chivincent]
-tags: [laravel]
+tags: [php,laravel]
 ---
 
 [Laravel Sanctum](https://laravel.com/docs/8.x/sanctum) 是 Laravel 提供的輕量化 API 服務認證（Authenticate）解決方案。

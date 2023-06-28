@@ -3,7 +3,7 @@ slug: color-change-for-vrchat-models-from-booth
 title: "為 BOOTH 購買的 VRChat 模型改顏色"
 date: 2023-03-04T15:02:32+08:00
 authors: [chivincent]
-tags: [vrchat, 3d]
+tags: [game,vrchat,3d]
 ---
 
 最近熱衷於玩 VRChat，在試用過多個不同的 Furry 模型之後，我最後選擇了 [Zeffie ゼフィー](https://booth.pm/zh-tw/items/4473466) 作為基礎模板。

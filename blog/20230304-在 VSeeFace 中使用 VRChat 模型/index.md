@@ -3,7 +3,7 @@ slug: use-vrchat-models-in-vseeface
 title: "在 VSeeFace 中使用 VRChat 模型"
 date: 2023-03-04T16:18:06+08:00
 authors: [chivincent]
-tags: [vrchat, 3d]
+tags: [game,vrchat,3d]
 ---
 
 最近有嘗試著在 [Twitch 上開直播](https://twitch.tv/chivincent)，想說如果能夠讓 Zeffie（我在 VRChat 中所使用的角色形象）在直播時使用就好了。

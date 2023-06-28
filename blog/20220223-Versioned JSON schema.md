@@ -1,11 +1,9 @@
 ---
+slug: versioned-json-schema
 title: "Versioned JSON Schema"
 date: 2022-02-23T14:45:06+08:00
-categories:
-  - 資訊技術
-tags:
-  - RDBMS
-  - Laravel
+authors: [chivincent]
+tags: [php,laravel]
 ---
 
 隨著 MySQL 5.7 加入對 JSON 格式的原生支援，開始有許多開發團隊把 RDBMS 當 NoSQL 使用。本篇文章對於效能議題暫且擱置，顯而易見地，越自由的格式往往會帶來更沉重的維護成本。

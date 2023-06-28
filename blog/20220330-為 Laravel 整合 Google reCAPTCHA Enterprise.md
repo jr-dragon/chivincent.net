@@ -2,11 +2,8 @@
 title: "為 Laravel 整合 Google reCAPTCHA Enterprise"
 date: 2022-03-30T14:15:42+08:00
 slug: intergrate-google-recaptcha-enterprise-in-laravel
-categories:
-  - 資訊技術
-tags:
-  - Google reCAPTCHA Enterprise
-  - Laravel
+authors: [chivincent]
+tags: [php,laravel]
 ---
 
 Google reCAPTCHA 是一個人類行為驗證機制，用於阻止爬蟲或類似的機器行為。

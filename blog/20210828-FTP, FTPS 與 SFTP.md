@@ -2,11 +2,8 @@
 title: "FTP, FTPS 與 SFTP"
 date: 2021-08-28T11:46:22+08:00
 slug: ftp-ftps-and-sftp
-categories:
-  - 資訊技術
-tags:
-  - 科普
-  - PHP
+authors: [chivincent]
+tags: [php]
 ---
 
 ## 概述

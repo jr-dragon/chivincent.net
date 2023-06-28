@@ -3,7 +3,7 @@ slug: failed-in-laravel-queue
 title: "Laravel Queue 失效研究"
 date: 2022-09-20T15:07:13+08:00
 authors: [chivincent]
-tags: [laravel]
+tags: [php,laravel]
 ---
 
 網路上有大量的文章探討**如何使用 Laravel Queue**，可惜的是，它們通常就給個 Hello World 式的範例，並未深入探討。

@@ -2,12 +2,8 @@
 title: "Laravel JWT 認證"
 date: 2021-10-13T11:15:03+08:00
 slug: laravel-jwt-authentication
-categories:
-  - 資訊技術
-tags:
-  - Laravel
-  - Authentication
-  - JWT
+authors: [chivincent]
+tags: [php,laravel]
 ---
 
 ## 現有的解決方案

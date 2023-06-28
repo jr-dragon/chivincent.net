@@ -2,13 +2,8 @@
 title: "在 Sabaki 上使用 GNU Go 及 Katago"
 date: 2022-04-08T13:04:36+08:00
 slug: gnu-go-and-katago-on-sabaki
-categories:
-    - 電玩
-tags:
-    - 圍棋
-    - Sabaki
-    - GNU Go
-    - Katago
+authors: [chivincent]
+tags: [game,gnu go]
 ---
 
 作為休閒活動，我偶爾會在 [OGS](https://online-go.com/) 上跟人下棋。不過前陣子因為家裡網路不太穩定，所以索性就自己弄了一套單機的下棋環境。
