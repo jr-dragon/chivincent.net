@@ -120,7 +120,7 @@ const config = {
         appId: 'SANPS1NFCM',
   
         // Public API key: it is safe to commit it
-        apiKey: 'd44c63dce57f1cc3c3f0abd0218e39f6',
+        apiKey: '0f2010eb37369f31e12950c60e8ff1a9',
   
         indexName: 'chivincent',
   
