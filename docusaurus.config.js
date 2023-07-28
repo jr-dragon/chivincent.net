@@ -113,7 +113,19 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['php']
+        additionalLanguages: ['php'],
+        magicComments: [
+          {
+            className: 'theme-code-block-highlighted-line',
+            line: 'highlight-next-line',
+            block: {start: 'highlight-start', end: 'highlight-end'},
+          },
+          {
+            className: 'code-block-error-line',
+            line: 'highlight-error-next-line',
+            block: {start: 'highlight-error-start', end: 'highlight-error-end'}
+          },
+        ]
       },
       algolia: {
         // The application ID provided by Algolia
