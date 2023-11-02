@@ -88,8 +88,6 @@ Apply 之後，點擊 Avatar Definition 的 Configure，會進到 Avatar Configu
 
 ![](9.webp)
 
-{{< youtube id=nb3hetfzx60 >}}
-
 ## 參考資料
 
 1. [【3d虚拟主播制作】VRM，vseeface模型文件制作环境的搭建](https://www.bilibili.com/video/BV1324y1o7UM/)
