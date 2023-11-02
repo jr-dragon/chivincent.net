@@ -113,7 +113,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['php', 'docker'],
+        additionalLanguages: ['php', 'docker', 'nasm'],
         magicComments: [
           {
             className: 'theme-code-block-highlighted-line',
