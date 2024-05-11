@@ -10,7 +10,7 @@ const darkCodeTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '芥龍 Vincent',
-  tagline: 'SRE, Backend @ Rosetta.ai',
+  tagline: 'SWE, Backend @ Zoek Inc.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

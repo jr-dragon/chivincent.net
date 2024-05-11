@@ -25,8 +25,8 @@ const FeatureList: FeatureItem[] = [
     description: (
       <div>
         <blockquote>PHP 是世界上最好的語言</blockquote>
-        <p>精通 PHP 與 Laravel，Laravel Ecosystem 貢獻者。</p>
-        <p>熟悉 Python, Go 與 C，因為跟前端緣份不夠所以只略懂 Javascript / Typescript。</p>
+        <p>精通 Laravel，Laravel Ecosystem 貢獻者。</p>
+        <p>熟悉 Python, Go 與 C；因為跟前端緣份不夠所以只略懂 Javascript / Typescript。</p>
       </div>
     ),
   },
@@ -40,7 +40,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <div>
         <blockquote>對，我就不獸控制</blockquote>
-        <p>2023 年初因加入 VRChat 而成為獸控，喜歡毛裝，或許哪天會考慮購入毛裝或電子毛裝？</p>
+        <p>2023 年初因加入 VRChat 而成為獸控</p>
         <small>有其它方面的興趣，但如果你有幸找到我也不會承認 :3</small>
       </div>
     ),
@@ -56,7 +56,7 @@ const FeatureList: FeatureItem[] = [
       <div>
         <blockquote>很喜歡薩爾達玩家的一句話：啊？</blockquote>
         <p>從《薩爾達傳說：曠野之息》成為薩爾達系列粉絲，與《薩爾達傳說：王國之淚》遊戲時數合計破千小時並持續增加中。</p>
-        <p>經常在 VRChat 上出沒，上圖為主要使用的 Avatar，以 <a href="https://timal.booth.pm/items/4473466">Zeffie</a> 為基礎改製，同時也是第二獸設。</p>
+        <p>經常在 VRChat 上出沒，上圖為主要使用的 Avatar，以 <a href="https://timal.booth.pm/items/4473466">Zeffie</a> 為基礎改製。</p>
       </div>
     ),
   },
@@ -66,8 +66,7 @@ function Feature({title, image, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        {/* <img className={styles.featureSvg} src={image} role="img" /> */}
-        <picture>
+        <picture style={{ width: '200px' }}>
           <source srcSet={image.avif} type="image/avif"/>
           <source srcSet={image.webp} type="image/webp"/>
           <img src={image.png}/>
