@@ -193,6 +193,8 @@ volumes:
 
 舉例來說，假設我們需要 Docker in Docker 的話，可以這麼設定
 
+> 註：事實上，完全可以利用 [Docker In Docker](https://github.com/devcontainers/features/tree/main/src/docker-in-docker) 或 [Docker Outside of Docker](https://github.com/devcontainers/features/tree/main/src/docker-outside-of-docker) 這兩個 devcontainer feature 來達成目的，以下僅是作為示範
+
 ```yaml title=".devcontainer/docker-compose.yml"
 services:
   devcontainer:
