@@ -116,7 +116,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['php', 'docker', 'nasm', 'ini'],
+        additionalLanguages: ['php', 'docker', 'nasm', 'ini', 'json'],
         magicComments: [
           {
             className: 'theme-code-block-highlighted-line',
@@ -128,6 +128,11 @@ const config = {
             line: 'highlight-error-next-line',
             block: {start: 'highlight-error-start', end: 'highlight-error-end'}
           },
+          {
+            className: 'code-block-success-line',
+            line: 'highlight-success-next-line',
+            block: {start: 'highlight-success-start', end: 'highlight-success-end'}
+          }
         ]
       },
       algolia: {
