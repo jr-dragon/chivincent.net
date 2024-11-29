@@ -6,7 +6,7 @@ authors: [chivincent]
 tags: [docker,devcontainer,go]
 ---
 
-因應近期在開發 Side Project 時與前端工程師有協作上的需求，原本想要沿用 [Laravel 環境設定](laravel-setup) 中提到的 Local 與 Develop 環境，不過喜新厭舊的我在觀望了一陣子的 [devcontainer](https://containers.dev/) 之後，決定來嘗試一下。
+因應近期在開發 Side Project 時與前端工程師有協作上的需求，原本想要沿用 [Laravel 環境設定](/blog/laravel-setup) 中提到的 Local 與 Develop 環境，不過喜新厭舊的我在觀望了一陣子的 [devcontainer](https://containers.dev/) 之後，決定來嘗試一下。
 
 > 註：devcontainer 在 VSCode 上的支援性較好，在 JetBrains IDEs 上會有一些奇奇怪怪的小問題（但是我個人仍然是偏好使用 Jetbrains IDE，~Jetbrains 該給業配了吧~）
 
