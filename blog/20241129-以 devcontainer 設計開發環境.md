@@ -14,7 +14,9 @@ tags: [docker,devcontainer,go]
 
 ## 專案結構
 
-對於一個 go project，我習慣上會使用以下架構（關於詳細的專案結構設計我會另外開一篇文章討論）：
+對於一個 Go Project，我與我的團隊偏好採用 [golang-standard/project-layout](https://github.com/golang-standards/project-layout) 作為基礎。
+
+> 註：雖然寫 `golang-standard`，但這並不是 Go 標準的一部份，社群之間也多有反對意見；但不可諱言地，當考慮團隊協作時這種架構有助於降低溝通門檻。
 
 ```
 $ tree .
