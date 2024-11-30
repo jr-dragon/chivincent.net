@@ -46,6 +46,7 @@ const config = {
           blogSidebarCount: 'ALL',
           feedOptions: {
             type: 'all',
+            description: 'feedId:85650589970250752+userId:85643626791965696',
             copyright: `Copyright © ${new Date().getFullYear()} Chivincent`,
           },
         },
