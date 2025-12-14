@@ -10,7 +10,7 @@ const darkCodeTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '芥龍 Vincent',
-  tagline: 'SWE, Backend @ Zoek Inc.',
+  tagline: 'SWE, Backend',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -25,7 +25,11 @@ const config = {
   projectName: 'chivincent.net', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn'
+    }
+  },
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -90,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/chivincent',
+                href: 'https://github.com/jr-dragon',
               },
               {
                 label: 'Facebook',
